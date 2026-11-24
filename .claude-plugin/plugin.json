@@ -1,0 +1,13 @@
+{
+  "name": "notch-yet",
+  "version": "1.0.0",
+  "description": "The MacBook notch grows and Clawd tells you when Claude Code is done or needs you. Nothing stays running.",
+  "author": {
+    "name": "Alejandro Calatayud",
+    "url": "https://github.com/alexcalatyd"
+  },
+  "homepage": "https://github.com/alexcalatyd/NotchYet",
+  "repository": "https://github.com/alexcalatyd/NotchYet",
+  "license": "MIT",
+  "keywords": ["macos", "notch", "notifications", "hooks"]
+}

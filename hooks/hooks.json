@@ -1,0 +1,20 @@
+{
+  "description": "Notch Yet: show the notch when Claude is done or needs you",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/bin/notch-yet\" done" }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "permission_prompt|elicitation_dialog",
+        "hooks": [
+          { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/bin/notch-yet\" need" }
+        ]
+      }
+    ]
+  }
+}

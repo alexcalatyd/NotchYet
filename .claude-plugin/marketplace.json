@@ -1,0 +1,15 @@
+{
+  "name": "notch-yet",
+  "owner": {
+    "name": "Alejandro Calatayud",
+    "url": "https://github.com/alexcalatyd"
+  },
+  "plugins": [
+    {
+      "name": "notch-yet",
+      "source": "./",
+      "description": "The MacBook notch grows and Clawd tells you when Claude Code is done or needs you. Nothing stays running.",
+      "category": "productivity"
+    }
+  ]
+}
