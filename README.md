@@ -71,6 +71,8 @@ remove it, `/plugin uninstall notch-yet`.
 ### With Homebrew
 
 ```sh
+brew tap alexcalatyd/tap
+brew trust alexcalatyd/tap   # Homebrew asks you to trust third-party taps once
 brew install alexcalatyd/tap/notch-yet
 notch-yet install-hooks
 ```
